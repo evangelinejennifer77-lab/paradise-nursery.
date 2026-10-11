@@ -1,0 +1,26 @@
+import React from 'react';
+
+export default function AboutUs({ onBack }) {
+  return (
+    <main className="content-page about-page">
+      <button className="text-button" onClick={onBack}>← Back to plants</button>
+      <p className="eyebrow">OUR STORY</p>
+      <h1>About Paradise Nursery</h1>
+      <p>
+        Paradise Nursery is a plant shop concept built around making greenery
+        easy to bring into everyday life. We help plant lovers discover plants
+        for homes, workspaces, and gardens.
+      </p>
+      <p>
+        Our goal is to make choosing plants simple by presenting clear product
+        details and an easy shopping experience. Whether you are starting your
+        first indoor garden or adding to a collection, we want to help you find
+        a plant that suits your space.
+      </p>
+      <div className="about-highlight">
+        <h2>Grow a little happiness</h2>
+        <p>Choose a plant, care for it, and enjoy a greener space every day.</p>
+      </div>
+    </main>
+  );
+}
